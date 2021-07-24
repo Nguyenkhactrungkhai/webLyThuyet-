@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full HTML</title>
+</head>
+<body>
+    <!-- Thẻ tiêu đề -->
+    <!-- Heading : tiêu đề, level 1 -6 -->
+    <h1 class="demo">Thẻ tiêu đề</h1>
+    <h2>Thẻ tiêu đề</h2>
+    <h3>Thẻ tiêu đề</h3>
+    <h4>Thẻ tiêu đề</h4>
+    <h5>Thẻ tiêu đề</h5>
+    <h6>Thẻ tiêu đề</h6>
+    <p>Văn bản </p> <!-- Paragraph : văn bản -->
+    <span>Văn bản</span> <br>
+    <b>In đậm</b> <br>
+    <u>Gạch chân</u> <br>
+    <i>In nghiêng</i> <br>
+    <p>H<sub>2</sub>O</p> 
+    <p><sup>X</sup>3</p>
+    <!-- Thẻ link -->
+    <a href="https://www.youtube.com/">youtube</a>
+    <a name="#demo">Demo</a>   <!-- Điền chỗ nam là tên class hoặc tên id-->
+    <!-- Chèn ảnh -->
+    <img src="https://i.pinimg.com/originals/a8/45/76/a84576a04c1874304735604d9f47d5a4.jpg" alt="Ảnh lỗi">
+    <!-- Tạo danh sách : có 3 loại danh sách
+    + Unordered list :  ul : Không sắp xếp 
+        type: 
+            disc 
+            cricle 
+            square
+    + Ordered list : ol : sắp xếp 
+        type:
+            1
+            I
+            i
+            a
+            A
+    + Description List : <dt> : tự định nghĩa 
+    -->
+    <ul type="disc">
+        <li>Lớp 1</li>
+        <li>Lớp 2</li>
+        <li>Lớp 3</li>
+        <li>Lớp 4</li>
+        <li>Lớp 5</li>
+    </ul>
+    <ol type="">
+        <li>Lớp 1</li>
+        <li>Lớp 2</li>
+        <li>Lớp 3</li>
+        <li>Lớp 4</li>
+        <li>Lớp 5</li>
+    </ol>
+    <dl>
+        <dt>Cà phê</dt>
+        <dd>– một loai đồ uống nóng màu đen</dd>
+        <dt>Sữa</dt>
+        <dd>– một loại đồ uống lạnh màu trắng</dd>
+     </dl>
+     <h2>Form đăng ký</h2>
+     <form>
+         <label>Tên tài khoản: </label>
+         <input type="text"> <br>
+         <label>Mật khẩu</label>
+         <input type="password"> <br>
+         <label>Nhập lại mật khẩu</label>
+         <input type="password"> <br>
+         <label>Ngày sinh</label>
+         <input type="date"> <br>
+         <label>Số điện thoại</label>
+         <input type="number"> <br>
+         <label>Email</label>
+         <input type="email"> <br>
+         <label>Gioi tinh</label>
+         <input type="radio" name="gender"> Nam
+         <input type="radio" name="gender"> Nữ   <br>
+         <label>Ngôn ngữ </label>
+         <input type="checkbox"> Tiếng Việt
+         <input type="checkbox"> Tiếng Anh
+         <input type="checkbox"> Tiếng Nhật <br>
+         <label>Góp ý </label>
+        <textarea name="" id="" cols="30" rows="4"></textarea> <br>
+        <input type="button" value="Đăng ký"> 
+     </form>
+
+     <!-- Table : Bảng 
+        Border : đườnng viền 
+        tr : table row : dòng của bảng
+        th : table heading : tiêu đề của bảng
+        td : table  data : dữ liệu của bảng 
+    -->
+     <table border="1">
+         <tr>
+            <th>Username</th>
+            <th>password</th>
+            <th>Email</th>
+         </tr>
+         <tr>
+            <td>Trungkhai</td>
+            <td>123456</td>
+            <td>abc@gmail.com</td>
+         </tr>
+     </table>
+</body>
+</html>

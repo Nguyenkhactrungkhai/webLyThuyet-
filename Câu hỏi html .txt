@@ -1,0 +1,29 @@
+Câu 1 : HTML viết tắt của từ gì? năm ra đời? HTML để làm gì?
+- HTML viết tắt của từ Hypertext Markup Language (Ngôn ngữ đánh
+dấu siêu văn bản)
+- HTML ra đời năm 1980 
+- HTML có tác dụng tạo về cấu trúc website, trong cấu trúc gần 
+các văn bản, hình ảnh, đường dẫn,...
+Câu 2: CSS viết tắt của từ gì? năm ra đời ? CSS để làm gì ?
+- CSS viết tắt của từ Cascading Style Sheet 
+- CSS ra đời năm 1996 
+- CSS có tác dụng giúp các thẻ html có thêm style như đổi bố cục,
+màu sắc trang, font chữ, thay đổi cấu trúc,...
+Câu 3: Có mấy cách css? ví dụ, cách nào được ưu tiên nhất 
+Có 3 cách CSS:
+- Inline: sử dụng attribute style 
+ví dụ : <p style="color: #123456;"
+- Internal : Đặt css ở phần <head> </head> và cho thêm cặp thẻ
+<style> </style>
+ví dụ : <style> p {font-size: 12px; } </style>
+- External : Đặt các thuộc tính css vào file .css và dùng thẻ link 
+dẫn link tới html
+ví dụ có 1 file style.css có thuộc tính css như sau :
+p {
+  font-size : 21px;
+}
+sau đó t sẽ dùng thẻ link đặt ở phần <head> </head> như sau:
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+độ ưu tiên trong css
+Inline > Internal -> External 
